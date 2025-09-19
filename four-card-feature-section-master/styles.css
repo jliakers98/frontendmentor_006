@@ -1,0 +1,81 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Poppins';
+    color: hsl(234, 12%, 34%);
+}
+
+header {
+    text-align: center;
+    margin: 3em 2em;
+}
+
+p {
+    font-size: 0.95em;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+section {
+    border-radius: 0.4em;
+    border-top: solid 0.2em;
+    box-shadow: 0 1px 5px hsl(212, 6%, 44%);
+    margin: 2em;
+    padding: 1.5em;
+}
+
+section p {
+    font-size: 0.8rem;
+    color: hsl(234, 12%, 34%);
+    margin: 0;
+    padding: 0.5em 0 2em;
+}
+
+section img {
+    padding-left: 75%;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.card1 {
+    margin-top: 0;
+    border-color: hsl(180, 62%, 55%);
+}
+
+.card2 {
+    border-color: hsl(0, 78%, 62%);
+}
+
+.card3 {
+    border-color: hsl(34, 97%, 64%);
+}
+
+.card4 {
+    border-color: hsl(212, 86%, 64%);
+}
+
+@media (min-width:500px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section {
+        margin: 1em;
+    }
+}
